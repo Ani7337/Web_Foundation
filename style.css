@@ -1,0 +1,307 @@
+
+body{
+    margin: 0;
+    width: 1920px;
+    padding: 0;
+    background: #FFFFFF;
+}
+
+header{
+    width: 1920px;
+    height: 492px;
+    background-image: url(img/vegetables-fruits.png);
+}
+.navbar{
+    float: left;
+    display: flex;
+}  
+.logo{
+    padding: 17px 534px 0px 255px;
+}
+.menu ul {
+    padding: 0;
+    margin-top: 30px;
+    float: left;
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    margin:  30px 71px 0px 0px;
+}
+.active, .menu a:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.title {
+    padding: 156px 0 0 255px;
+}
+.title h5{
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 36px;
+}
+middle{
+    width: 1920px;
+}
+middle .submenu{
+    float: right;
+    display: flex;
+    margin: 49px  192px 122px 1105px ;
+}
+
+middle .submenu ul{
+    float: left;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   width: 657pxS;
+}
+middle .submenu ul li{
+    list-style: none;
+}
+middle .submenu ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: #1C3418;
+    padding-right: 63px ;
+}
+.sub_active, .submenu a:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid #173014;
+}
+.content h1{
+    margin: 199px 1005px 40px 345px;
+    color: #064431;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    height: 112px;
+}
+.content h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2A2B32;
+    margin:0 885px 40px 348px;
+    height: 106px;
+}
+.content ul{
+    padding: 0 0 198px 0;
+    margin: 0;
+}
+.content ul li{
+    list-style: none;
+}
+.content ul li p{
+    color: #2A2B32;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 20px 867px 20px 396px;
+}
+.point{
+    float: left;
+    margin: 8px 20px 0px 356px;
+}
+
+.side{
+    position: relative;
+    top 0 ;
+    right: 0;
+    height: 0;
+}
+.side .rectangle{
+    position: relative;
+    top: -760px;
+    left: 1330px;
+}
+.side .side_pic{
+    position: absolute;
+    top: -700px;
+    right: 200px;
+}
+
+.row{
+    text-align: center;
+    margin: 0px 415px 162px 278px;
+}
+.row .col{
+   float: left;
+   margin: 0 10px;
+}
+.pic{
+    padding: 0  10px 15px 15px;
+}
+.big_pic{ 
+    position: relative;
+    top: -110px;
+    right: -40px;
+
+}
+.row .col p{
+    color:  #064431;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+section{
+    padding-bottom: 59px;
+}
+.section_l{
+width: 1310px;
+float: left;
+    }
+.section_r{
+    width: 610px;
+    float: right;
+}
+section .text{
+    color: #2A2B32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 279px 819px 60px 471px;
+    margin: 0;
+}
+section h3{
+    color: #064431;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 215px 60px 345px;
+    margin: 0;
+}
+section ul{
+    padding: 0;
+    margin: 0;
+}
+section ul li{
+    list-style: none;
+}
+section ul li p{
+    color:#2A2B32;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+section img{
+    padding: 0 60px 0 0;    
+}
+.point_text{
+    float: left;
+    padding: 0 20px 0 432px ;
+}
+
+ footer{
+    background-color: #064431;
+    position: relative;
+    left: 0;
+    bottom: -390px;
+    width: 1920px;
+    height: 390px;
+    color: #FFFFFF;
+ }
+ .footer_logo{
+    position: relative;
+    top: -138px;
+    left: 173px;
+ }
+ .inner_menu ul{
+     position: relative;;
+     top: -190px;
+     left: 531px;
+     padding: 0;
+ }
+ .inner_menu li{
+     list-style: none;
+     margin-bottom: 20px;
+
+}
+.inner_menu a{
+     text-decoration: none ;
+     color: #FFFFFF;
+     font-family: "Montserrat" ;
+     font-size: 20px;
+     font-weight: 600;
+ }
+ .inner_menu a:hover{
+     border-bottom: 2px solid #FFFFFF;
+ }
+
+ .brends{
+     position: relative;
+     top: -370px;
+     left: 862px;
+     width: 400px;
+    }
+    .brends ul{
+        margin: 0;
+        padding: 0;
+    }
+    .brends ul li{
+        list-style: none;
+        margin-bottom: 48px;
+    }
+    .brends .support li{
+        float: left;
+    }
+    .word{
+        padding: 0 25px;
+    }
+    .location{
+        position:relative;
+        top: -460px;
+        left: 1100px;
+    }
+    .location h5{
+        font-size: 20px;
+        font-family: "Montserrqt";
+        font-weight: 600;
+        margin: 5px 0;
+    }
+    .location p{
+        position: relative;
+        bottom: 90px;
+        right: -330px;
+    }
+    .location a{
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 11px 38px;
+        border: 1px solid #FFFFFF;
+        border-radius: 1px;
+        position: relative;
+        bottom: 130px;
+        right: -510px;
+
+    }
+    
+ .c{
+     font-family: "Montserrat";
+     font-size: 14px;
+     font-weight: 400;
+     color: #ffffff;
+     position: relative;
+     top: -620px;
+     right: -300px;
+ }
+ .icons a{
+     color: #2A2B32;
+     top: -620px;
+     right: -300px;
+ }
